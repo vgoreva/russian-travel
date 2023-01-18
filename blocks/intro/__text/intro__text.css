@@ -1,0 +1,9 @@
+.intro__text {
+    max-width: 690px;
+    margin-top: 40px;
+    max-width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+}

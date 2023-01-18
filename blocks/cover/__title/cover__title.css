@@ -1,0 +1,21 @@
+.cover__title {
+    position: absolute;
+    z-index: 3;
+    margin:auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5em;
+    line-height: 1.05;
+    text-align: center;
+}
+@media screen and (max-width:320px) {
+    .cover__title {
+    top: 20%;
+    font-size: 2em;
+    line-height: 1.09;
+    }
+    
+}
