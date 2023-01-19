@@ -1,9 +1,11 @@
-.footer__links {
+.footer__list {
     margin: 0;
     padding: 0;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     gap: 18px;
+    justify-content: start;
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
@@ -13,7 +15,7 @@
     text-decoration: none;
 }
 @media screen and (max-width:320px) {
-    .footer__links{ 
+    .footer__flex{ 
         flex-direction: column;
         font-size: 1.5em;
         line-height: 1.5;
