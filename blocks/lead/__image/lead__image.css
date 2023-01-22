@@ -4,13 +4,15 @@
     margin-top: 64px;
     object-fit: cover;
 }
+
 @media screen and (max-width: 768px) {
-.lead__image{
-    margin-top: 56px;
+    .lead__image {
+        margin-top: 56px;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .lead__image{
+    .lead__image {
         margin-top: 40px;
-        }
- }
+    }
+}

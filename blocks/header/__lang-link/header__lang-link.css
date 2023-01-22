@@ -4,14 +4,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1.5em;
-    line-height: 1.6;
+    line-height: 1.17;
 }
 .header__lang-link:hover{
-    text-decoration: underline;
+    opacity: 0.8;
 }
 @media screen and (max-width:320px) {
     .header__lang-link {
-        font-size: 1.25em;
+        font-size: 1.125em;
         line-height: 1.1; 
     }
 }

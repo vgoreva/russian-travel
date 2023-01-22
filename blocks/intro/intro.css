@@ -1,16 +1,17 @@
 .intro {
-    margin:0;
+    margin: 0;
     padding: 0;
     margin-top: 92px;
     margin-left: 148px;
     max-width: 690px;
 }
+
 @media screen and (max-width: 1024px) {
-    .intro
-    {
+    .intro {
         margin-left: 48px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 720px;
@@ -19,6 +20,7 @@
         margin-top: 88px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .intro {
         margin-left: 16px;

@@ -1,8 +1,9 @@
-.page{
-    margin: 0;
+.page {
+    margin: 0 auto;
     padding: 0;
     max-width: 100%;
-    font-family: 'Inter';
+    width: 1280px;
+    font-family: "Inter", "Arial", sans-serif;
     color: #FFFFFF;
     background-color: #2A2C2F;
 }

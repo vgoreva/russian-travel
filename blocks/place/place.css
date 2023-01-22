@@ -1,26 +1,29 @@
-.place{
+.place {
     margin: 0;
     padding: 0;
     max-width: 100%;
     margin-left: 148px;
     margin-right: 148px;
 }
+
 @media screen and (max-width:1024px) {
     .place {
-    margin-left: 48px;
-    margin-right: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
     }
 }
+
 @media screen and (max-width:768px) {
     .place {
-    margin-left: 24px;
-    margin-right: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
+
 @media screen and (max-width:320px) {
-.place {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 64px;
+    .place {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 64px;
     }
 }

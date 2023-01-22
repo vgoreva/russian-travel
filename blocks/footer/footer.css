@@ -8,8 +8,17 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width:768px) {
+    .footer {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .footer {
-    margin-top: 64px;
+        margin-top: 64px;
+        flex-direction: column;
     }
 }

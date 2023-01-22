@@ -1,19 +1,29 @@
 .place__image {
-    grid-area:image;
+    grid-area: image;
     max-width: 460px;
 }
+
 @media screen and (max-width:1024px) {
     .place__image {
-    max-width: 340px;
+        max-width: 440px;
     }
 }
+
 @media screen and (max-width:768px) {
     .place__image {
-    max-width: 340px;
+        max-width: 340px;
     }
 }
-@media screen and (max-width:320px) {
+
+@media screen and (max-width:660px) {
     .place__image {
-    max-width: 320px;
+        margin: auto;
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .place__image {
+        margin: 0;
     }
 }

@@ -9,15 +9,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
-    line-height: 1.1;
+    line-height: 1.125;
     list-style-type: none;
     color: #FFFFFF;
     text-decoration: none;
 }
-@media screen and (max-width:320px) {
-    .footer__flex{ 
+
+@media screen and (max-width:685px) {
+    .footer__list {
         flex-direction: column;
         font-size: 1.5em;
-        line-height: 1.5;
+        line-height: 1;
     }
 }

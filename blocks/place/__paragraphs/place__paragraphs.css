@@ -2,21 +2,35 @@
     margin: 0;
     padding: 0;
     max-width: 484px;
-    grid-area:paragraph;
+    max-height: 660px;
+    overflow: scroll;
+    grid-area: paragraph;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1.125em;
     line-height: 1.6;
     color: #FFFFFF;
 }
-@media screen and (max-width:768px) {
+
+@media screen and (max-width:1024px) {
     .place__paragraphs {
-    max-width: 352px;
-    font-size: 1em;
+        min-width: calc(100% - 32px - 440px);
+        max-height: 440px;
     }
 }
-@media screen and (max-width:320px) {
+
+@media screen and (max-width:768px) {
     .place__paragraphs {
-    margin-left: 16px;
-    margin-right: 16px;
+        min-width: calc(100% - 28px - 340px);
+        max-height: 340px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .place__paragraphs {
+        max-width: 100%;
+        max-height: max-content;
+        margin-left: 16px;
+        padding-right: 16px;
     }
 }

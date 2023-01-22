@@ -4,12 +4,13 @@
     max-width: 100%;
     font-style: normal;
     font-weight: 900;
-    font-size: 3.3em;
-    line-height: 1;
+    font-size: 3.375em;
+    line-height: 1.07;
 }
+
 @media screen and (max-width: 320px) {
-.intro__title{
-    font-size: 2em;
-    line-height: 1;
+    .intro__title {
+        font-size: 2em;
+        line-height: 1.09;
     }
 }
