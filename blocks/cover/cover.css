@@ -23,6 +23,18 @@
     }
 }
 
+@media screen and (max-width:425px) {
+    .cover {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .cover {
+        height: 300px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .cover {
         height: 200px;

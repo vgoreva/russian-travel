@@ -1,8 +1,8 @@
 .place__paragraphs {
     margin: 0;
     padding: 0;
-    max-width: 484px;
-    min-width: 350px;
+    width: 100%;
+    min-width: 400px;
     grid-area: paragraph;
     font-weight: 400;
     font-size: 1.125em;
@@ -10,25 +10,23 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width:1024px) {
-    .place__paragraphs {
-        max-width: 456px;
-    }
-}
-
 @media screen and (max-width:768px) {
     .place__paragraphs {
-        max-width: 352px;
         font-size: 1em;
+        line-height: 1.63;
     }
 }
 
-@media screen and (max-width:660px) {
+@media screen and (max-width:425px) {
     .place__paragraphs {
-        padding: 0;
-        margin: 0;
+        max-width: 100%;
+        min-width: unset;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place__paragraphs {
         margin-left: 16px;
         max-width: 288px;
-        min-width: 200px;
     }
 }
