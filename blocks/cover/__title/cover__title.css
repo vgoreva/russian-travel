@@ -13,12 +13,13 @@
 
 @media screen and (max-width:768px) {
     .cover__title {
-        padding-top: 23%;
+        padding-top: 15%;
     }
 }
 
 @media screen and (max-width:425px) {
     .cover__title {
+        padding-top: 25%;
         font-size: 3.5em;
     }
 }
