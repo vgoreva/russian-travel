@@ -10,17 +10,17 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:825px) {
     .place__paragraphs {
         font-size: 1em;
         line-height: 1.63;
+        min-width: unset;
     }
 }
 
 @media screen and (max-width:425px) {
     .place__paragraphs {
         max-width: 100%;
-        min-width: unset;
     }
 }
 
